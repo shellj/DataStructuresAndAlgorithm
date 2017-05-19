@@ -22,7 +22,7 @@ public class BubleSort {
     }
 
     public static void main(String[] args) {
-        int[] arr = new int[]{23, 1, 33, -123, 545, 123, 6, 12, 1, 1};
+        int[] arr = TestData.unsortedData();
         new BubleSort().sort(arr);
         System.out.println(Arrays.toString(arr));
     }
